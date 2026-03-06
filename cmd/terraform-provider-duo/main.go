@@ -10,6 +10,11 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
 )
 
+var (
+	// these will be set by the build process
+	version string = "dev"
+)
+
 func main() {
 	var debug bool
 
@@ -22,7 +27,7 @@ func main() {
 	}
 
 	err := providerserver.Serve(context.Background(), func() tfprovider.Provider {
-		return provider.New("1.0.0")
+		return provider.New(version)
 	}, opts)
 
 	if err != nil {
