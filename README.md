@@ -14,7 +14,7 @@ Custom terraform provider for Cisco Duo Admin API.
 terraform {
   required_providers {
     duo = {
-      source = "srmullaney/duo"
+      source = "DeathTrooperr/duo"
     }
   }
 }

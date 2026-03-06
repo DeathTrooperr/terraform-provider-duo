@@ -1,4 +1,4 @@
-module github.com/srmullaney/terraform-provider-duo
+module github.com/DeathTrooperr/terraform-provider-duo
 
 go 1.26.1
 

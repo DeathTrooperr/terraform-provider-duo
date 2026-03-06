@@ -4,13 +4,13 @@ import (
 	"context"
 	"os"
 
+	"github.com/DeathTrooperr/terraform-provider-duo/internal/duo"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/provider"
 	"github.com/hashicorp/terraform-plugin-framework/provider/schema"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/srmullaney/terraform-provider-duo/internal/duo"
 )
 
 // DuoProvider defines the provider implementation.

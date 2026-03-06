@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     duo = {
-      source = "srmullaney/duo"
+      source = "DeathTrooperr/duo"
     }
   }
 }

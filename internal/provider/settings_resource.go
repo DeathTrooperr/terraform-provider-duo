@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"net/url"
 
+	"github.com/DeathTrooperr/terraform-provider-duo/internal/duo"
 	"github.com/hashicorp/terraform-plugin-framework/diag"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/srmullaney/terraform-provider-duo/internal/duo"
 )
 
 // SettingsResource defines the resource implementation.

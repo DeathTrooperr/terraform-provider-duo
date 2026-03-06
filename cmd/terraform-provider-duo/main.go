@@ -5,9 +5,9 @@ import (
 	"flag"
 	"log"
 
+	"github.com/DeathTrooperr/terraform-provider-duo/internal/provider"
 	tfprovider "github.com/hashicorp/terraform-plugin-framework/provider"
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
-	"github.com/srmullaney/terraform-provider-duo/internal/provider"
 )
 
 func main() {
@@ -17,7 +17,7 @@ func main() {
 	flag.Parse()
 
 	opts := providerserver.ServeOpts{
-		Address: "registry.terraform.io/srmullaney/duo",
+		Address: "registry.terraform.io/DeathTrooperr/duo",
 		Debug:   debug,
 	}
 
