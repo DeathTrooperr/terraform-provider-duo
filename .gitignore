@@ -35,3 +35,4 @@ vendor/
 .terraform/
 *.tfstate*
 terraform.tfvars
+.idea
